@@ -17,28 +17,28 @@
 class Rokha < Formula
   desc "Rokha CLI — picks and shovels for the agentic economy"
   homepage "https://rokha.ai"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/aetherBytes/rokha-sdk/releases/download/cli-v#{version}/ro-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "b809efe5188e0024aade3e1effdce4fe9b68d31a21d99aa5fe3b0b5fb46b520d"
+      sha256 "802c5469f196f5b37b13786a26ea3acf06590f74e7ae8f36d4c27a63eee042a0"
     end
     on_intel do
       url "https://github.com/aetherBytes/rokha-sdk/releases/download/cli-v#{version}/ro-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "1d8452abe4189fa83a62747bb736de5cf82fe7c3286f6cfe9d30878c933d9b13"
+      sha256 "1e0adc1e7a885bd352c5a9a838b5905fe919453048b010e218ace04f465abae0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/aetherBytes/rokha-sdk/releases/download/cli-v#{version}/ro-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7a9955c90b5b5c86403551f04d9f1c3b1473f369e1ff4f15298b223974948273"
+      sha256 "4db79dc5799e249d74af414b70d3d4a3f58722b7015a569ab963cece7923d8aa"
     end
     on_intel do
       url "https://github.com/aetherBytes/rokha-sdk/releases/download/cli-v#{version}/ro-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "00bb8d5480828f9b28c0ee94dcb7866c99e211a1a04efbb1b964d41553e464a3"
+      sha256 "e104916b7f62b65750cdbb04e891be5fe2e2eee719f7ad29536d5a0127a3f80c"
     end
   end
 
